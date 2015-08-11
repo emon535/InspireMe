@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A991E7D4-A028-4D0F-B3EC-DCE5D59F2AE8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Motivational Quotes</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>505F77E190037C62474749677430B0BCAB083440</key>
+		<string>https://github.com/emon535/InspireMe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Motivational Quotes/Motivational Quotes.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>505F77E190037C62474749677430B0BCAB083440</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/emon535/InspireMe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>505F77E190037C62474749677430B0BCAB083440</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>505F77E190037C62474749677430B0BCAB083440</string>
+			<key>IDESourceControlWCCName</key>
+			<string>InspireMe</string>
+		</dict>
+	</array>
+</dict>
+</plist>

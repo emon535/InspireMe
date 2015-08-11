@@ -9,8 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+        
     
-    @IBOutlet var quoteLabel: UILabel!
+    
+    
+    @IBOutlet var labelQuote: UILabel!
     
     //Quote Array 
     
@@ -19,27 +22,30 @@ class ViewController: UIViewController {
     
     // random quote function 
     
-    func randomQuote() ->String
+    func randQuote() ->String
     {
-        var randomIndex = Int(arc4random()) % allQuotes.count
-        var randomQuote=allQuotes[randomIndex]
-        return randomQuote
-        
+        //var randomIndex = Int(arc4random())
+       // println(randomIndex)
+        var randIndex = Int ( arc4random()) % allQuotes.count
+        var quote = allQuotes[randIndex]
+        return quote
     }
-
     
-
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-      //  println(randomQuote())
-        
-        
-        let myQuote = randomQuote()
-        quoteLabel.text = myQuote
+             println(randQuote())
         
     }
-
+    
+    @IBAction func buttonInspireMe(sender: UIButton) {
+        
+       // randQuote();
+        println("testing Button")
+        labelQuote.text=randQuote()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
