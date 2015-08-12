@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 47;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,7 @@
 		3BAB2D601B790CF300846CED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB2D5F1B790CF300846CED /* Images.xcassets */; };
 		3BAB2D631B790CF300846CED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB2D611B790CF300846CED /* LaunchScreen.xib */; };
 		3BAB2D6F1B790CF400846CED /* Motivational_QuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB2D6E1B790CF400846CED /* Motivational_QuotesTests.swift */; };
+		3BEB17771B7B26C00039636B /* quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB17761B7B26C00039636B /* quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		3BAB2D681B790CF400846CED /* Motivational QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Motivational QuotesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAB2D6D1B790CF400846CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BAB2D6E1B790CF400846CED /* Motivational_QuotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motivational_QuotesTests.swift; sourceTree = "<group>"; };
+		3BEB17761B7B26C00039636B /* quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				3B6C86B31B79A94D00A03EC4 /* Images */,
 				3BAB2D581B790CF300846CED /* AppDelegate.swift */,
+				3BEB17761B7B26C00039636B /* quote.swift */,
 				3BAB2D5A1B790CF300846CED /* ViewController.swift */,
 				3BAB2D5C1B790CF300846CED /* Main.storyboard */,
 				3BAB2D5F1B790CF300846CED /* Images.xcassets */,
@@ -182,7 +185,7 @@
 		3BAB2D4B1B790CF300846CED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Foysal Ahmed Emon";
 				TargetAttributes = {
 					3BAB2D521B790CF300846CED = {
@@ -196,7 +199,7 @@
 				};
 			};
 			buildConfigurationList = 3BAB2D4E1B790CF300846CED /* Build configuration list for PBXProject "Motivational Quotes" */;
-			compatibilityVersion = "Xcode 6.3";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -247,6 +250,7 @@
 			files = (
 				3BAB2D5B1B790CF300846CED /* ViewController.swift in Sources */,
 				3BAB2D591B790CF300846CED /* AppDelegate.swift in Sources */,
+				3BEB17771B7B26C00039636B /* quote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

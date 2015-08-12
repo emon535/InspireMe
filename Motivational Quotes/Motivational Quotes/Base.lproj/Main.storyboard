@@ -40,6 +40,7 @@
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="bgImage" destination="er9-IS-vZy" id="wPX-Vf-Avi"/>
                         <outlet property="labelQuote" destination="zIx-BQ-hIU" id="pmh-I1-CPK"/>
                     </connections>
                 </viewController>
